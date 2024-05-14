@@ -5,12 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Literature Home</title>
     <!-- Include Tailwind CSS from CDN -->
-    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body class="bg-gray-50">
+<body class="relative bg-gray-100">
+
+    <!-- Background Image Grid -->
+    <!-- <div class="absolute h-96 mt-16 grid grid-cols-2 grid-rows-4 gap-2 z-0"> -->
+    <div class="absolute">
+        <img src="recitatifPhoto.jpeg" alt="Literature Image 1" class="absolute top-10 object-cover opacity-70">
+        <img src="EastOfEdenPhoto.jpeg" alt="Literature Image 2" class="w-full h-full object-cover opacity-70">
+        <img src="AdventuresOfHuckFinnPhoto.jpeg" alt="Literature Image 3" class="w-full h-full object-cover opacity-70">
+        <img src="TheGlassMenageriePhoto.jpeg" alt="Literature Image 4" class="w-full h-full object-cover opacity-70">
+        <img src="TheirEyesWereWatchingGodPhoto.jpg" alt="Literature Image 5" class="w-full h-full object-cover opacity-70">
+        <img src="TheBearPhoto.jpeg" alt="Literature Image 6" class="w-full h-full object-cover opacity-70">
+        <img src="HemingwayShortStoriesPhoto.jpeg" alt="Literature Image 7" class="w-full h-full object-cover opacity-70">
+        <img src="greatGatsbyPhoto.jpeg" alt="Literature Image 8" class="w-full h-full object-cover opacity-70">
+    </div>
+
     <!-- Navigation Bar -->
-    <nav class="bg-white shadow">
+    <nav class="bg-white bg-opacity-60 shadow z-10 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex">
@@ -21,7 +35,7 @@
                     <!-- Primary Navbar items -->
                     <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
                         <a href="index.html" class="border-b-2 border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium">Home</a>
-                        <a href="about.html" class="text-gray-200 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">About</a>
+                        <a href="about.html" class="text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">About</a>
                         <a href="contact.html" class="text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">Contact</a>
                     </div>
                 </div>
@@ -35,10 +49,10 @@
     </nav>
 
     <!-- Home Page Content -->
-    <div class="mt-8 mx-auto max-w-4xl px-4 py-2">
+    <div class="relative mt-8 mx-auto max-w-4xl px-4 py-2 bg-white bg-opacity-80 rounded-lg shadow z-10">
         <h1 class="text-4xl text-indigo-600 font-bold">Welcome to the Literature Portal</h1>
-        <p class="mt-2 text-gray-600">Explore classic and contemporary literary works, delve into in-depth analyses, and join discussions about your favorite books. This portal is your gateway to the world of literature, featuring authors from John Steinbeck to Toni Morrison.</p>
+        <p class="mt-2 text-gray-600">Explore classic and contemporary literary works, delve into in-depth analyses, and join discussions about your favorite books. This portal is your gateway to the world of literature, featuring authors from John Steinbeck to Toni Morrison.</p>      
     </div>
-    <link href="output.css" rel="stylesheet">
+    
 </body>
 </html>
