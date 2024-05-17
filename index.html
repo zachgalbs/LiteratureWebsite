@@ -7,24 +7,52 @@
     <!-- Include Tailwind CSS from CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        .animate-delay-0\.5s {
+            animation-delay: 0.5s;
+        }
+        .animate-delay-1s {
+            animation-delay: 1s;
+        }
+        .animate-delay-1\.5s {
+            animation-delay: 1.5s;
+        }
+        .animate-delay-2s {
+            animation-delay: 2s;
+        }
+        .animate-delay-2\.5s {
+            animation-delay: 2.5s;
+        }
+        .animate-delay-3s {
+            animation-delay: 3s;
+        }
+        .animate-delay-3\.5s {
+            animation-delay: 3.5s;
+        }
+        .animate-delay-4s {
+            animation-delay: 4s;
+        }
+        .animate-delay-4\.5s {
+            animation-delay: 4.5s;
+        }
+    </style>
 </head>
 <body class="relative bg-gray-100">
 
     <!-- Background Image Grid -->
-    <!-- <div class="absolute h-96 mt-16 grid grid-cols-2 grid-rows-4 gap-2 z-0"> -->
-    <div class="absolute">
-        <img src="recitatifPhoto.jpeg" alt="Literature Image 1" class="absolute top-10 object-cover opacity-70">
-        <img src="EastOfEdenPhoto.jpeg" alt="Literature Image 2" class="w-full h-full object-cover opacity-70">
-        <img src="AdventuresOfHuckFinnPhoto.jpeg" alt="Literature Image 3" class="w-full h-full object-cover opacity-70">
-        <img src="TheGlassMenageriePhoto.jpeg" alt="Literature Image 4" class="w-full h-full object-cover opacity-70">
-        <img src="TheirEyesWereWatchingGodPhoto.jpg" alt="Literature Image 5" class="w-full h-full object-cover opacity-70">
-        <img src="TheBearPhoto.jpeg" alt="Literature Image 6" class="w-full h-full object-cover opacity-70">
-        <img src="HemingwayShortStoriesPhoto.jpeg" alt="Literature Image 7" class="w-full h-full object-cover opacity-70">
-        <img src="greatGatsbyPhoto.jpeg" alt="Literature Image 8" class="w-full h-full object-cover opacity-70">
+    <div class="absolute h-screen w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 z-0">
+        <img src="recitatifPhoto.jpeg" alt="Literature Image 1" class="w-full h-full object-cover opacity-70 animate__animated animate__fadeIn animate-delay-0.5s">
+        <img src="EastOfEdenPhoto.jpeg" alt="Literature Image 2" class="w-full h-full object-cover opacity-70 animate__animated animate__fadeIn animate-delay-1s">
+        <img src="AdventuresOfHuckFinnPhoto.jpeg" alt="Literature Image 3" class="w-full h-full object-cover opacity-70 animate__animated animate__fadeIn animate-delay-1.5s">
+        <img src="TheGlassMenageriePhoto.jpeg" alt="Literature Image 4" class="w-full h-full object-cover opacity-70 animate__animated animate__fadeIn animate-delay-2s">
+        <img src="TheirEyesWereWatchingGodPhoto.jpg" alt="Literature Image 5" class="w-full h-full object-cover opacity-70 animate__animated animate__fadeIn animate-delay-2.5s">
+        <img src="TheBearPhoto.jpeg" alt="Literature Image 6" class="w-full h-full object-cover opacity-70 animate__animated animate__fadeIn animate-delay-3s">
+        <img src="HemingwayShortStoriesPhoto.jpeg" alt="Literature Image 7" class="w-full h-full object-cover opacity-70 animate__animated animate__fadeIn animate-delay-3.5s">
+        <img src="greatGatsbyPhoto.jpeg" alt="Literature Image 8" class="w-full h-full object-cover opacity-70 animate__animated animate__fadeIn animate-delay-4s">
     </div>
 
     <!-- Navigation Bar -->
-    <nav class="bg-white bg-opacity-60 shadow z-10 relative">
+    <nav class="bg-white bg-opacity-80 shadow z-10 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex">
@@ -35,14 +63,15 @@
                     <!-- Primary Navbar items -->
                     <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
                         <a href="index.html" class="border-b-2 border-indigo-500 text-gray-900 inline-flex items-center px-1 pt-1 text-sm font-medium">Home</a>
-                        <a href="about.html" class="text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">About</a>
-                        <a href="contact.html" class="text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">Contact</a>
+                        <a href="east-of-eden.html" class="text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">East of Eden</a>
+                        <a href="nick-adams-stories.html" class="text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">The Nick Adams Stories</a>
+                        <a href="glass-menagerie.html" class="text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">The Glass Menagerie</a>
+                        <a href="huck-finn.html" class="text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">The Adventures of Huckleberry Finn</a>
+                        <a href="their-eyes.html" class="text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">Their Eyes Were Watching God</a>
+                        <a href="great-gatsby.html" class="text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">The Great Gatsby</a>
+                        <a href="the-bear.html" class="text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">The Bear</a>
+                        <a href="recitatif.html" class="text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 text-sm font-medium">Recitatif</a>
                     </div>
-                </div>
-                <!-- Secondary Navbar items -->
-                <div class="hidden sm:ml-6 sm:flex sm:items-center">
-                    <a href="#" class="text-gray-500 hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">Log In</a>
-                    <a href="#" class="ml-4 bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-2 rounded-md text-sm font-medium">Sign Up</a>
                 </div>
             </div>
         </div>
@@ -51,7 +80,7 @@
     <!-- Home Page Content -->
     <div class="relative mt-8 mx-auto max-w-4xl px-4 py-2 bg-white bg-opacity-80 rounded-lg shadow z-10">
         <h1 class="text-4xl text-indigo-600 font-bold">Welcome to the Literature Portal</h1>
-        <p class="mt-2 text-gray-600">Explore classic and contemporary literary works, delve into in-depth analyses, and join discussions about your favorite books. This portal is your gateway to the world of literature, featuring authors from John Steinbeck to Toni Morrison.</p>      
+        <p class="mt-2 text-gray-600">Explore all the literary works from this year! This portal is your gateway to the world of classic American literature, featuring authors from John Steinbeck to Toni Morrison.</p>      
     </div>
     
 </body>
